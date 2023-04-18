@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Operaciones</title>
+
+     <style>
+
+     body {
+
+              background-color: green;
+
+            }
+    button{
+            display:inline-block;
+            box-sizing: border-box;
+            border: 2px solid #000000;
+            border-radius: 4px;
+            text-align: center;
+            width: 180px;
+            height: 60px;
+            font-size: 20px;
+
+          float: center;left:8em; right:1em; margin-left:11em; margin-right:1em;margin-bottom:0em; margin-top:5em;
+
+    }
+    button:hover{
+      border-color: #17C01D;
+    }
+    button:active{
+      border-color: #17C01D;
+    }
+     </style>
+
+  </head>
+
+
+
+  <body>
+
+    <header>
+      <div class="caja">
+        <h1 class="titulo-principal">Operaciones</h1>
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="explicacion.html">Explicación</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <br>
+        <br>
+        <br>
+        <span class="info-operaciones" id="num1"></span>
+        <span class="info-operaciones" id="operacion"></span>
+        <span class="info-operaciones" id="num2"></span>
+        <span class="info-operaciones" id="igual"> = </span>
+        <input type="text" id="respuesta-user">
+        <br>
+        <button id="validar" onclick="validar()">Validar</button>
+        <button id="nuevo-intento" onclick="intentarDeNuevo()">Intentar de nuevo</button>
+        <br>
+        <img class="profe" src= img/prof.png>
+
+
+      </section>
+
+      <br><section id="msjAciertos">
+
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+
+  </body>
+</html>

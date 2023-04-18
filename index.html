@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Prácticas matemátic</title>
+  </head>
+  <body>
+
+    <header>
+      <div class="caja">
+        <h1 class="titulo-principal">Operaciones matemáticas</h1>
+        <nav class="menuIn">
+          <ul>
+            <li><a href="explicacion.html">Explicación</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <img class="imagen-preview" src="img/mate.jpg" alt="Imagen con números y simbolos matemáticos">
+
+    <main>
+
+      <section class="operaciones">
+        <p>Escoga una operación a practicar.</p>
+
+        <div class="opciones-operacion">
+          <nav class="simbolos-operaciones">
+            <a class="simbolos" href="operacion.html" onclick="nuevaSuma()"><img class="ajuste-simbolos" src="img/suma.png" alt="Simbolo de suma"></a>
+            <a class="simbolos" href="operacion.html" onclick="nuevaResta()"><img class="ajuste-simbolos" src="img/resta.png" alt="Simbolo de resta"></a>
+            <a class="simbolos" href="operacion.html" onclick="nuevoProducto()"><img class="ajuste-simbolos" src="img/multiplicacion.png" alt="Simbolo de multiplicación"></a>
+            <a class="simbolos" href="operacion.html" onclick="nuevaDivision()"><img class="ajuste-simbolos" src="img/division.png" alt="Simbolo de división"></a>
+          </nav>
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer>
+      <span class="copyright">&copy Todos los derechos reservados a: </span>
+    </footer>
+
+    <script src="script.js"></script>
+    <!--script type="module" src="script2.js"></script-->
+  </body>
+</html>
